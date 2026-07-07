@@ -1,14 +1,21 @@
 <aside class="hub-quicknav" aria-label="성과관리 바로가기">
-  <p class="hub-quicknav__eyebrow">Knowledge Menu</p>
-  <h2>바로가기</h2>
-  <nav>
-    <a {% if page.url == '/overview/' %}class="is-active"{% endif %} href="{{ '/overview/' | relative_url }}">전체 목차</a>
-    <a {% if page.url == '/hyosung-way/' %}class="is-active"{% endif %} href="{{ '/hyosung-way/' | relative_url }}">효성 인재상</a>
-    <a {% if page.url == '/performance-system/' %}class="is-active"{% endif %} href="{{ '/performance-system/' | relative_url }}">성과평가 체계</a>
-    <a {% if page.url == '/kpi-playground/' %}class="is-active"{% endif %} href="{{ '/kpi-playground/' | relative_url }}">KPI 예시 테이블</a>
-    <a {% if page.url == '/kpi-knowledge/' %}class="is-active"{% endif %} href="{{ '/kpi-knowledge/' | relative_url }}">KPI Agent Knowledge</a>
-    <a {% if page.url == '/one-on-one-coaching/' %}class="is-active"{% endif %} href="{{ '/one-on-one-coaching/' | relative_url }}">1:1 코칭</a>
-    <a {% if page.url == '/disc/' %}class="is-active"{% endif %} href="{{ '/disc/' | relative_url }}">DISC 행동유형</a>
-    <a {% if page.url == '/agent-builder-knowledge/' %}class="is-active"{% endif %} href="{{ '/agent-builder-knowledge/' | relative_url }}">Agent Builder Knowledge</a>
-  </nav>
+    <p class="hub-quicknav__eyebrow">Knowledge Menu</p>
+    <h2>바로가기</h2>
+    <nav>
+        <a {% if page.url=='/overview/' %}class="is-active" {% endif %} href="{{ '/overview/' | relative_url }}">전체
+            목차</a>
+        <a {% if page.url=='/hyosung-way/' %}class="is-active" {% endif %}
+            href="{{ '/hyosung-way/' | relative_url }}">효성 인재상</a>
+        <a {% if page.url=='/performance-system/' %}class="is-active" {% endif %}
+            href="{{ '/performance-system/' | relative_url }}">성과평가 체계</a>
+        <a {% if page.url=='/kpi-playground/' %}class="is-active" {% endif %}
+            href="{{ '/kpi-playground/' | relative_url }}">KPI 예시 테이블</a>
+        <a {% if page.url=='/kpi-knowledge/' %}class="is-active" {% endif %}
+            href="{{ '/kpi-knowledge/' | relative_url }}">KPI Agent Knowledge</a>
+        <a {% if page.url=='/one-on-one-coaching/' %}class="is-active" {% endif %}
+            href="{{ '/one-on-one-coaching/' | relative_url }}">1:1 코칭</a>
+        <a {% if page.url=='/disc/' %}class="is-active" {% endif %} href="{{ '/disc/' | relative_url }}">DISC 행동유형</a>
+        <a {% if page.url=='/agent-builder-knowledge/' %}class="is-active" {% endif %}
+            href="{{ '/agent-builder-knowledge/' | relative_url }}">Agent Builder Knowledge</a>
+    </nav>
 </aside>
