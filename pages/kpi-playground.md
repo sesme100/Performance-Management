@@ -4,16 +4,12 @@ title: "KPI 예시 테이블"
 subheadline: "Editable KPI Playground"
 teaser: "원본 엑셀의 영업, 생산, 연구, 재무 KPI 예시 표를 웹에서 확인하고 부서별 계산 결과를 볼 수 있습니다."
 permalink: "/kpi-playground/"
+body_class: "kpi-playground-page"
 ---
 
 <!-- markdownlint-disable MD033 MD060 -->
 
 <style>
-.hub-page-shell.row { align-items: flex-start; display: flex; gap: 1rem; max-width: min(98vw, 1720px); width: calc(100vw - 1rem); }
-.hub-page-shell .hub-quicknav-column { flex: 0 0 clamp(190px, 16vw, 250px); float: none !important; max-height: calc(100vh - 6rem); max-width: clamp(190px, 16vw, 250px); overflow-y: auto; position: sticky; top: 4.9rem; width: clamp(190px, 16vw, 250px); }
-.hub-page-shell .hub-content-column { flex: 1 1 auto; float: none !important; max-width: calc(100% - clamp(190px, 16vw, 250px) - 1rem); width: auto; }
-.hub-page-shell .hub-quicknav { max-height: none; position: static; }
-.hub-page-shell article { padding: clamp(1.1rem, 1.8vw, 2.2rem); }
 .kpi-note { background: #eef7ff; border-left: 4px solid #2584c7; padding: 1rem; margin-bottom: 1.5rem; }
 .kpi-table-wrap { margin-bottom: 1.5rem; overflow-x: visible; width: 100%; }
 .kpi-table { table-layout: fixed; width: 100%; }
@@ -33,12 +29,6 @@ permalink: "/kpi-playground/"
 .kpi-table col:nth-child(11) { width: 7%; }
 .kpi-table col:nth-child(12) { width: 5%; }
 .kpi-table col:nth-child(13) { width: 13%; }
-@media screen and (max-width: 880px) {
-  .hub-page-shell.row { display: block; width: calc(100vw - 1rem); }
-  .hub-page-shell .hub-quicknav-column,
-  .hub-page-shell .hub-content-column { max-width: 100%; width: 100%; }
-  .hub-page-shell .hub-quicknav-column { max-height: none; overflow-y: visible; position: static; }
-}
 .kpi-input { background: #d9ecff !important; border-color: #2584c7 !important; }
 .kpi-output { font-weight: 700; }
 .kpi-summary { background: #f7f7f7; padding: 1rem; margin-top: 1rem; }
