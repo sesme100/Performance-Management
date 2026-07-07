@@ -4,49 +4,25 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: frontpage
-header:
-  image_fullwidth: header_unsplash_12.jpg
-widget1:
-  title: "Blog & Portfolio"
-  url: 'http://phlow.github.io/feeling-responsive/blog/'
-  image: widget-1-302x182.jpg
-  text: 'Every good portfolio website has a blog with fresh news, thoughts and develop&shy;ments of your activities. <em>Feeling Responsive</em> offers you a fully functional blog with an archive page to give readers a quick overview of all your posts.'
-widget2:
-  title: "Why use this theme?"
-  url: 'http://phlow.github.io/feeling-responsive/info/'
-  text: '<em>Feeling Responsive</em> is heavily customizable.<br/>1. Language-Support :)<br/>2. Optimized for speed and it&#39;s responsive.<br/>3. Built on <a href="http://foundation.zurb.com/">Foundation Framework</a>.<br/>4. Seven different Headers.<br/>5. Customizable navigation, footer,...'
-  video: '<a href="#" data-reveal-id="videoModal"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
-widget3:
-  title: "Download Theme"
-  url: 'https://github.com/Phlow/feeling-responsive'
-  image: widget-github-303x182.jpg
-  text: '<em>Feeling Responsive</em> is free and licensed under a MIT License. Make it your own and start building. The code is well-documented and explains you how it works.'
-#
-# Use the call for action to show a button on the frontpage
-#
-# To make internal links, just use a permalink like this
-# url: /getting-started/
-#
-# To style the button in different colors, use no value
-# to use the main color or success, alert or secondary.
-# To change colors see sass/_01_settings_colors.scss
-#
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+layout: page-fullwidth
+title: "AI기반 팀 관리 및 성과 매니지먼트"
+subheadline: "Performance Management for Agent Builder"
+teaser: "효성 인재상, 성과평가, KPI, 1:1 코칭, DISC 행동유형을 M365 Copilot Agent Builder의 Knowledge로 활용하기 쉽게 정리한 웹사이트입니다."
 permalink: /index.html
-#
-# This is a nasty hack to make the navigation highlight
-# this page as active in the topbar navigation
-#
 homepage: true
 ---
 
-<div id="videoModal" class="reveal-modal large" data-reveal="">
-  <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <a class="close-reveal-modal">&#215;</a>
-</div>
+## 목적
+
+이 사이트는 성과관리 대화를 돕는 지식 베이스입니다. 평가자가 목표를 명확히 세우고, KPI 데이터를 읽고, 효성 Way 관점에서 피드백을 정리하며, 구성원의 행동유형에 맞춘 1:1 코칭을 설계할 수 있도록 구성했습니다.
+
+## 사용 흐름
+
+1. [효성 인재상]({{ '/hyosung-way/' | relative_url }})에서 평가와 코칭의 기준 언어를 확인합니다.
+2. [성과평가 체계]({{ '/performance-system/' | relative_url }})에서 목표 설정, 중간 점검, 최종 평가 흐름을 확인합니다.
+3. [KPI 예시 테이블]({{ '/kpi-playground/' | relative_url }})에서 파란색 입력값을 바꿔 성과 점수와 코칭 포인트를 시뮬레이션합니다.
+4. [DISC 행동유형]({{ '/disc/' | relative_url }})과 [1:1 코칭]({{ '/one-on-one-coaching/' | relative_url }})을 함께 참고해 구성원별 대화 방식을 조정합니다.
+
+## 참고 출처
+
+효성 소개와 핵심가치 내용은 [효성 그룹소개](https://www.hyosung.com/kr/about-us)를 참고해 요약·재구성했습니다. DISC 내용은 [DISC 행동유형검사 정리 글](https://m.blog.naver.com/cosreader/222856771733)을 참고하되, 성과관리와 코칭 맥락에 맞게 새로 정리했습니다.

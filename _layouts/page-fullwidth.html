@@ -16,8 +16,11 @@ format: page-fullwidth
 {% endif %}
 
 
-<div class="row t30">
-	<div class="medium-12 columns">
+<div class="hub-page-shell row t30">
+	<div class="hub-quicknav-column medium-3 columns">
+		{% include performance_quicknav.html %}
+	</div>
+	<div class="hub-content-column medium-9 columns">
 		<article>
 			<header>
 				{% if page.subheadline %}<p class="subheadline">{{ page.subheadline }}</p>{% endif %}
@@ -32,7 +35,7 @@ format: page-fullwidth
 
 			{{ content }}
 		</article>
-	</div><!-- /.medium-12.columns -->
+	</div><!-- /.hub-content-column -->
 </div><!-- /.row -->
 
 

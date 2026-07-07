@@ -1,0 +1,465 @@
+headers:
+  - 구분*
+  - 과제*
+  - 달성방안*
+  - 가중치(%)*
+  - 일정
+  - KPI
+  - 단위
+  - 전년실적
+  - 금년계획
+  - 달성실적
+  - 계획대비 달성률
+  - 실적
+  - 잘한점/보완점
+departments:
+  - id: sales
+    name: 영업
+    title: KPI 요소-영업 예시
+    rows:
+      - category: 정량적 과제
+        task: 판매량
+        action: 신규 거래처 발굴 및 기존 고객 관리 강화
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 판매량
+        unit: 톤/월
+        previous: 1200
+        plan: 1300
+        actual: 1280
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 목표 근접 달성
+      - category: 0.7
+        task: 차별화판매량
+        action: 프리미엄 제품 판매 확대
+        weight: 0.2
+        schedule: 1~12월
+        kpi: 판매량
+        unit: 톤/월
+        previous: 300
+        plan: 350
+        actual: 360
+        direction: higher
+        achievement: 1.03
+        score: 103
+        comment: 목표 초과 달성
+      - category: ""
+        task: 매출액
+        action: 마케팅 캠페인 강화 및 신규 시장 진출
+        weight: 0.2
+        schedule: 1~12월
+        kpi: 매출액
+        unit: 백만원/월
+        previous: 5000
+        plan: 5500
+        actual: 5300
+        direction: higher
+        achievement: 0.96
+        score: 96
+        comment: 마케팅 강화 필요
+      - category: ""
+        task: 매출이익
+        action: 원가 절감 및 고마진 제품 비중 확대
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 매출이익
+        unit: 백만원/월
+        previous: 800
+        plan: 900
+        actual: 870
+        direction: higher
+        achievement: 0.97
+        score: 97
+        comment: 원가 관리 개선
+      - category: ""
+        task: 여신잔액
+        action: 여신 회수 관리 강화
+        weight: 0.05
+        schedule: 1~12월
+        kpi: 여신잔액
+        unit: 백만원
+        previous: 150
+        plan: 120
+        actual: 125
+        direction: lower
+        achievement: 0.96
+        score: 96
+        comment: 회수율 개선
+      - category: ""
+        task: 여신기일
+        action: 결제조건 협상 및 관리
+        weight: 0.05
+        schedule: 1~12월
+        kpi: 여신기일
+        unit: 일
+        previous: 45
+        plan: 40
+        actual: 42
+        direction: lower
+        achievement: 0.95
+        score: 95
+        comment: 기일 단축 노력
+      - category: 정성적 과제
+        task: 고객만족
+        action: 고객 만족도 조사 및 개선
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 만족도
+        unit: "%"
+        previous: 85
+        plan: 90
+        actual: 88
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 고객 응대 개선
+      - category: 0.3
+        task: 조직기여
+        action: 내부 협업 강화
+        weight: 0.15
+        schedule: 1~12월
+        kpi: 팀워크
+        unit: "%"
+        previous: 80
+        plan: 85
+        actual: 86
+        direction: higher
+        achievement: 1.01
+        score: 101
+        comment: 협업 우수
+      - category: ""
+        task: 역량개발
+        action: 교육 및 역량 개발
+        weight: 0.05
+        schedule: 1~12 월
+        kpi: 자기개발
+        unit: "%"
+        previous: 70
+        plan: 80
+        actual: 78
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 교육 참여 확대
+  - id: production
+    name: 생산
+    title: KPI 요소-생산 예시
+    rows:
+      - category: 정량적 과제
+        task: Waste율
+        action: 공정 최적화 및 불량 감소
+        weight: 0.1
+        schedule: 1~12월
+        kpi: Waste율
+        unit: "%"
+        previous: 2.5
+        plan: 2
+        actual: 1.8
+        direction: lower
+        achievement: 1.10
+        score: 110
+        comment: 불량률  대폭 감소
+      - category: 0.7
+        task: AA급율
+        action: 품질 검사 강화
+        weight: 0.2
+        schedule: 1~12월
+        kpi: AA급율
+        unit: "%"
+        previous: 92
+        plan: 95
+        actual: 96
+        direction: higher
+        achievement: 1.01
+        score: 101
+        comment: 품질 향상
+      - category: ""
+        task: 생산량
+        action: 설비 가동률 향상
+        weight: 0.2
+        schedule: 1~12월
+        kpi: 생산량
+        unit: 톤/월
+        previous: 2800
+        plan: 3000
+        actual: 3100
+        direction: higher
+        achievement: 1.03
+        score: 103
+        comment: 생산성 증가
+      - category: ""
+        task: 원단위
+        action: 에너지 효율 개선
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 품목 원단위
+        unit: 원/톤
+        previous: 85000
+        plan: 82000
+        actual: 81000
+        direction: lower
+        achievement: 1.01
+        score: 101
+        comment: 원가 절감
+      - category: ""
+        task: 고객C&C
+        action: 클레임 예방 시스템 구축
+        weight: 0.1
+        schedule: 1~12월
+        kpi: C&C접수건
+        unit: 백만원
+        previous: 5
+        plan: 3
+        actual: 2
+        direction: lower
+        achievement: 1.33
+        score: 133
+        comment: 클레임 감소
+      - category: 정성적 과제
+        task: 현장개선
+        action: 현장 개선 활동
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 만족도
+        unit: "%"
+        previous: 80
+        plan: 85
+        actual: 87
+        direction: higher
+        achievement: 1.02
+        score: 102
+        comment: 개선 활동 활발
+      - category: 0.3
+        task: 안전관리
+        action: 안전 교육 강화
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 안전지수
+        unit: "%"
+        previous: 95
+        plan: 98
+        actual: 97
+        direction: higher
+        achievement: 0.99
+        score: 99
+        comment: 안전 교육 강화
+      - category: ""
+        task: 설비관리
+        action: 설비 예방 보전
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 예방보전율
+        unit: "%"
+        previous: 85
+        plan: 90
+        actual: 88
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 예방 보전 확대
+  - id: research
+    name: 연구
+    title: KPI 요소-연구 예시
+    rows:
+      - category: 정량적 과제
+        task: 개발
+        action: 신제품 개발 프로젝트 추진
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 달성률
+        unit: "%"
+        previous: 85
+        plan: 90
+        actual: 92
+        direction: higher
+        achievement: 1.02
+        score: 102
+        comment: 개발 일정 준수
+      - category: 0.3
+        task: 절감
+        action: 원가 절감 아이템 발굴
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 절감량
+        unit: 백만원
+        previous: 50
+        plan: 70
+        actual: 75
+        direction: higher
+        achievement: 1.07
+        score: 107
+        comment: 절감 목표 초과
+      - category: ""
+        task: 개선
+        action: 공정 개선 연구
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 개선율
+        unit: "%"
+        previous: 80
+        plan: 85
+        actual: 83
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 공정 효율화
+      - category: 정성적 과제
+        task: 발굴
+        action: 신기술 트렌드 조사
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 만족도
+        unit: "%"
+        previous: 70
+        plan: 80
+        actual: 82
+        direction: higher
+        achievement: 1.03
+        score: 103
+        comment: 신기술 발굴
+      - category: 0.7
+        task: 보고서
+        action: 연구 보고서 작성 및 발표
+        weight: 0.2
+        schedule: 1~12월
+        kpi: 건, 만족도
+        unit: 건
+        previous: 8
+        plan: 10
+        actual: 11
+        direction: higher
+        achievement: 1.10
+        score: 110
+        comment: 보고서 품질 향 상
+      - category: ""
+        task: 정립
+        action: 표준화 문서 정립
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 완성도
+        unit: "%"
+        previous: 75
+        plan: 85
+        actual: 84
+        direction: higher
+        achievement: 0.99
+        score: 99
+        comment: 문서화 진행 중
+      - category: ""
+        task: 평가
+        action: 연구 성과 평가 체계
+        weight: 0.3
+        schedule: 1~12월
+        kpi: 달성도
+        unit: "%"
+        previous: 80
+        plan: 90
+        actual: 88
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 평가 체계 개선
+  - id: finance
+    name: 재무
+    title: KPI 요소-관리 예시(재무)
+    rows:
+      - category: 정량적 과제
+        task: 자금조달
+        action: 자금 조달 계획 수립
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 납기
+        unit: 백만원
+        previous: 1000
+        plan: 1200
+        actual: 1180
+        direction: higher
+        achievement: 0.98
+        score: 98
+        comment: 자금 조달 원활
+      - category: 0.3
+        task: 여신/재고관리
+        action: 여신 및 재고 모니터링
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 여신액
+        unit: 억원
+        previous: 50
+        plan: 45
+        actual: 43
+        direction: lower
+        achievement: 1.04
+        score: 104
+        comment: 여신 관리 양호
+      - category: ""
+        task: 신용평가
+        action: 신용등급 관리
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 등급달성
+        unit: 등급
+        previous: A
+        plan: A+
+        actual: A+
+        direction: text
+        achievement: 1
+        score: 100
+        comment: 등급 유지
+      - category: 정성적 과제
+        task: 예산관리
+        action: 예산 관리 강화
+        weight: 0.1
+        schedule: 1~12월
+        kpi: 예산집행률
+        unit: "%"
+        previous: 95
+        plan: 98
+        actual: 97
+        direction: higher
+        achievement: 0.99
+        score: 99
+        comment: 예산 집행 효율화
+      - category: 0.7
+        task: 감사대응
+        action: 회계 감사 대응
+        weight: 0.2
+        schedule: 1~12월
+        kpi: 감사결과
+        unit: 점
+        previous: 85
+        plan: 90
+        actual: 92
+        direction: higher
+        achievement: 1.02
+        score: 102
+        comment: 감사 대응 우수
+      - category: ""
+        task: 리스크관리
+        action: 재무 리스크 관리
+        weight: 0.2
+        schedule: 1~12 월
+        kpi: 리스크지수
+        unit: "%"
+        previous: 15
+        plan: 10
+        actual: 8
+        direction: lower
+        achievement: 1.2
+        score: 120
+        comment: 리스크 감소
+      - category: ""
+        task: 보고체계
+        action: 재무 보고 시스템 개선
+        weight: 0.2
+        schedule: 1~12월
+        kpi: 보고정확도
+        unit: "%"
+        previous: 90
+        plan: 95
+        actual: 96
+        direction: higher
+        achievement: 1.01
+        score: 101
+        comment: 보고 정확도 향상

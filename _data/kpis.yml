@@ -1,0 +1,76 @@
+- id: revenue-achievement
+  category: 재무
+  name: 매출 달성률
+  direction: higher
+  direction_label: 높을수록 좋음
+  target: 100
+  actual: 108
+  weight: 30
+  achievement: 108.0
+  weighted_score: 32.4
+  rating: 달성
+  hyosung_values:
+    - 최고
+    - 책임
+  interpretation: 목표 대비 실적이 초과 달성된 지표입니다. 결과의 재현 가능성과 고객 또는 조직 성과에 미친 영향을 함께 확인합니다.
+  coaching_questions:
+    - 이번 초과 달성을 만든 가장 중요한 실행 요인은 무엇인가요?
+    - 다음 분기에도 같은 성과를 재현하려면 어떤 조건을 표준화해야 하나요?
+    - 목표 상향 또는 확장 적용이 가능한 영역은 어디인가요?
+- id: customer-leadtime
+  category: 고객
+  name: 고객 이슈 처리 리드타임
+  direction: lower
+  direction_label: 낮을수록 좋음
+  target: 5
+  actual: 4
+  weight: 20
+  achievement: 125.0
+  weighted_score: 24.0
+  rating: 탁월
+  hyosung_values:
+    - 책임
+    - 신뢰
+  interpretation: 처리 시간이 목표보다 짧아 고객 대응 속도가 우수한 지표입니다. 빠른 처리와 함께 품질, 재발 방지, 고객 신뢰 영향을 확인합니다.
+  coaching_questions:
+    - 리드타임을 줄인 핵심 프로세스 또는 협업 방식은 무엇인가요?
+    - 속도가 빨라지면서 품질 리스크는 없었나요?
+    - 다른 고객 이슈 유형에도 확산할 수 있는 방식은 무엇인가요?
+- id: automation-count
+  category: 프로세스
+  name: 업무 자동화 적용 건수
+  direction: higher
+  direction_label: 높을수록 좋음
+  target: 6
+  actual: 5
+  weight: 25
+  achievement: 83.3
+  weighted_score: 20.8
+  rating: 개선 필요
+  hyosung_values:
+    - 혁신
+    - 책임
+  interpretation: 목표 대비 미달한 지표입니다. 자동화 후보 발굴, 실행 우선순위, 적용 난이도, 협업 리소스 부족 여부를 함께 점검해야 합니다.
+  coaching_questions:
+    - 자동화 적용이 목표보다 적었던 가장 큰 원인은 무엇인가요?
+    - 남은 후보 과제 중 효과가 가장 큰 항목은 무엇인가요?
+    - 다음 점검 전까지 완료할 수 있는 최소 실행 단위는 무엇인가요?
+- id: collaboration-satisfaction
+  category: 조직
+  name: 협업 만족도
+  direction: higher
+  direction_label: 높을수록 좋음
+  target: 4.3
+  actual: 4.1
+  weight: 25
+  achievement: 95.3
+  weighted_score: 23.8
+  rating: 보완
+  hyosung_values:
+    - 신뢰
+    - 책임
+  interpretation: 목표에 근접했지만 일부 보완이 필요한 지표입니다. 정보 공유, 기대치 조율, 의사결정 투명성, 갈등 조정 방식을 확인합니다.
+  coaching_questions:
+    - 협업 만족도를 낮춘 주요 접점이나 상황은 무엇인가요?
+    - 정보 공유나 의사결정 과정에서 개선할 행동은 무엇인가요?
+    - 이해관계자와 다시 합의해야 할 기준은 무엇인가요?

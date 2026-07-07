@@ -1,17 +1,17 @@
-- menu_name: "Services"
+- menu_name: "Knowledge"
 
-- name: "Contact"
-  url: "/contact/"
-  title: "Contact"
+- name: "전체 목차"
+  url: "/overview/"
+  title: "성과관리 Knowledge 전체 목차"
 
-- name: "RSS"
-  url: "/feed.xml"
-  title: "Subscribe to RSS Feed"
+- name: "KPI 편집"
+  url: "/kpi-playground/"
+  title: "편집 가능한 KPI 예시 테이블"
 
-- name: "Atom"
-  url: "/atom.xml"
-  title: "Subscribe to Atom Feed"
+- name: "Agent Builder"
+  url: "/agent-builder-knowledge/"
+  title: "M365 Copilot Agent Builder Knowledge 활용 가이드"
 
 - name: "sitemap.xml"
   url: "/sitemap.xml"
-  title: "Sitemap for Google Webmaster Tools"
+  title: "검색과 Agent 수집을 위한 사이트맵"

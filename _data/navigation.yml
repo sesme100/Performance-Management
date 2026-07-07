@@ -1,75 +1,36 @@
-- title: Start
+- title: 홈
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
-
-- title: "Templates"
-  url: "/design/"
+- title: 성과관리 목차
+  url: "/overview/"
   side: left
   dropdown:
-  - title: "Grid & Colors"
-    url: "/design/grid/"
-  - title: "Typography"
-    url: "/design/typography/typography/"
-  - title: "Page/Post"
-    url: "/design/page/"
-  - title: "Post-Left-Sidebar"
-    url: "/design/post-left-sidebar/"
-  - title: "Post-Right-Sidebar"
-    url: "/design/post-right-sidebar/"
-  - title: "Page Full-Width"
-    url: "/design/page-fullwidth/"
-  - title: "Blog-Page"
-    url: "/blog/"
-  - title: "Video"
-    url: "/design/video/"
-  - title: "Gallery"
-    url: "/design/gallery/"
-  - title: "Portfolio"
-    url: "/design/portfolio/"
+  - title: "전체 목차"
+    url: "/overview/"
+  - title: "효성 인재상"
+    url: "/hyosung-way/"
+  - title: "성과평가 체계"
+    url: "/performance-system/"
+  - title: "KPI 예시 테이블"
+    url: "/kpi-playground/"
+  - title: "KPI Agent Knowledge"
+    url: "/kpi-knowledge/"
+  - title: "1:1 코칭"
+    url: "/one-on-one-coaching/"
+  - title: "DISC 행동유형"
+    url: "/disc/"
+  - title: "Agent Builder Knowledge"
+    url: "/agent-builder-knowledge/"
 
-- title: "Header Styles"
-  url: "/headers/"
+- title: "KPI 편집"
+  url: "/kpi-playground/"
   side: left
-  dropdown:
-  - title: "Header with Full-Width-Image"
-    url: "/design/header-full-width-image/"
-  - title: "Header with Image and Pattern"
-    url: "/design/header-image-pattern/"
-  - title: "Header with image and color"
-    url: "/design/header-image-color/"
-  - title: "Header Only With Logo"
-    url: "/design/header-logo-only/"
-  - title: "Header With Text"
-    url: "/design/header-with-text/"
-  - title: "No Header"
-    url: "/design/no-header/"
-  - title: "No Header but Image"
-    url: "/design/no-header-but-image/"
 
-- title: Documentation
-  url: "/documentation/"
+- title: "KPI Knowledge"
+  url: "/kpi-knowledge/"
   side: left
-  dropdown:
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
-
-- title: Blog
-  url: "/blog/"
-  side: left
-  dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
 
 - title: "Search"
   url: "/search/"
-  side: right
-
-- title: "Contact"
-  url: "/contact/"
   side: right
