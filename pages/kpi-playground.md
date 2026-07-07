@@ -9,11 +9,30 @@ permalink: "/kpi-playground/"
 <!-- markdownlint-disable MD033 MD060 -->
 
 <style>
+.hub-page-shell.row { max-width: min(96vw, 1560px); width: calc(100vw - 2rem); }
+.hub-page-shell .hub-quicknav-column { width: 100%; }
+.hub-page-shell .hub-content-column { width: 100%; }
+.hub-page-shell .hub-quicknav { position: static; }
+.hub-page-shell article { padding: clamp(1.3rem, 2.2vw, 2.4rem); }
 .kpi-note { background: #eef7ff; border-left: 4px solid #2584c7; padding: 1rem; margin-bottom: 1.5rem; }
-.kpi-table-wrap { overflow-x: auto; margin-bottom: 1.5rem; }
-.kpi-table { min-width: 1180px; }
-.kpi-table input, .kpi-table select { width: 100%; margin: 0; min-width: 4.5rem; }
-.kpi-table textarea { width: 100%; min-width: 13rem; min-height: 3.2rem; margin: 0; }
+.kpi-table-wrap { margin-bottom: 1.5rem; overflow-x: visible; width: 100%; }
+.kpi-table { table-layout: fixed; width: 100%; }
+.kpi-table th, .kpi-table td { font-size: clamp(.68rem, .72vw, .88rem); line-height: 1.35; padding: .48rem .42rem; white-space: normal; word-break: keep-all; }
+.kpi-table input, .kpi-table select { width: 100%; margin: 0; min-width: 0; padding: .42rem .35rem; }
+.kpi-table textarea { width: 100%; min-width: 0; min-height: 3rem; margin: 0; padding: .42rem .35rem; resize: vertical; }
+.kpi-table col:nth-child(1) { width: 7%; }
+.kpi-table col:nth-child(2) { width: 8%; }
+.kpi-table col:nth-child(3) { width: 18%; }
+.kpi-table col:nth-child(4) { width: 7%; }
+.kpi-table col:nth-child(5) { width: 7%; }
+.kpi-table col:nth-child(6) { width: 7%; }
+.kpi-table col:nth-child(7) { width: 6%; }
+.kpi-table col:nth-child(8) { width: 6%; }
+.kpi-table col:nth-child(9) { width: 6%; }
+.kpi-table col:nth-child(10) { width: 6%; }
+.kpi-table col:nth-child(11) { width: 7%; }
+.kpi-table col:nth-child(12) { width: 5%; }
+.kpi-table col:nth-child(13) { width: 10%; }
 .kpi-input { background: #d9ecff !important; border-color: #2584c7 !important; }
 .kpi-output { font-weight: 700; }
 .kpi-summary { background: #f7f7f7; padding: 1rem; margin-top: 1rem; }
@@ -40,6 +59,9 @@ permalink: "/kpi-playground/"
 <h3 class="kpi-department-title">{{ department.title }}</h3>
 <div class="kpi-table-wrap">
 <table class="kpi-table" data-kpi-table data-department="{{ department.name }}">
+  <colgroup>
+    {% for header in site.data.kpi_examples.headers %}<col>{% endfor %}
+  </colgroup>
   <thead>
     <tr>
       {% for header in site.data.kpi_examples.headers %}<th>{{ header }}</th>{% endfor %}
