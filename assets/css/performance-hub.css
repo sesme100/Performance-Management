@@ -554,6 +554,15 @@ button,
         padding: 1.6rem;
     }
 
+    article header h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
 
 @media screen and (max-width: 880px) {
     body.kpi-playground-page .hub-page-shell.row {
@@ -571,14 +580,5 @@ button,
         max-height: none;
         overflow-y: visible;
         position: static;
-    }
-}
-    article header h1 {
-        font-size: 2rem;
-    }
-
-    table {
-        display: block;
-        overflow-x: auto;
     }
 }
